@@ -1,9 +1,9 @@
-# XCM
-X Coin Machines (XCM) are gift certificate tokens, issued by [TigoCTM](https://tigoctm.com). The tokens use an [ERC20 standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) contract for deployment on the [Ethereum](https://ethereum.org) blockchain. The contract extends [Open Zeppelin](https://github.com/OpenZeppelin/zeppelin-solidity) BurnableToken.
+# eguld
+Eguld is a derivative of [guld](https://guld.io) for the Ethereum blockchain. The tokens use an [ERC20 standard](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) contract for deployment on the [Ethereum](https://ethereum.org) blockchain. The contract extends [Open Zeppelin](https://github.com/OpenZeppelin/zeppelin-solidity) BurnableToken.
 
 ## Purpose
 
-Each XCM will have a redemption value of $10 (1.025-2x it's cost), when spent on TigoCTM products or services. TigoCTM will use the funds raised to develop and manufacture cryptography optimized machines, with built in hardware security modules. Machines will feature [guldOS](https://guld.io), the OS with built in blockchain, p2p file sharing and more. It is fair to say that XCM tokens are backed by hardware, though the hardware is produced after the corresponding token creation event.
+Each eguld token is burnable
 
 ## Lifecycle
 
@@ -13,7 +13,7 @@ TigoCTM will do `creation` of all tokens on Nov. 1, but will not distribute them
 
 After Jan. 1, XCM tokens `circulate` using generic transfer functionality, which is supported by every major Ethereum wallet. This makes XCM easier and more fungible, since no hosted wallet is required, and enterprise users like exchanges do not need to implement any special functions.
 
-The `redeem` step is simple: purchase an item from the https://tigoctm.com store, choosing `XCM` as the payment option (not available until ICO completion), then send your XCM to the address given. 
+The `redeem` step is simple: purchase an item from the https://tigoctm.com store, choosing `XCM` as the payment option (not available until ICO completion), then send your XCM to the address given.
 
 Upon receiving payment in XCM, TigoCTM will process your order, and `burn` the tokens. This permanently removes them from circulation, proportionally reducing the XCM supply. While, technically, users can burn their own XCM, TigoCTM will not provide a user interface for accomplishing this. Any such user-burned XCM will still be redeemable, by contacting TigoCTM support with cryptographically signed proof of ownership of the burning address.
 
@@ -98,4 +98,3 @@ As more ICO funding targets are achieved, TigoCTM will be able to manufacture mo
 **specs**: TBD
 
 **guaranteed upon filling tranche**: 10
-
