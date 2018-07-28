@@ -8,7 +8,7 @@ contract EGULD is BurnableToken {
     uint public decimals = 8;
     uint public INITIAL_SUPPLY = 100000;
 
-    function EGULD() {
+    constructor () {
         totalSupply = INITIAL_SUPPLY;
         balances[msg.sender] = INITIAL_SUPPLY;
     }
