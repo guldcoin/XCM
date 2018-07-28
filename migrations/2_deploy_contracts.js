@@ -1,5 +1,5 @@
-var XCoinMachines = artifacts.require("XCoinMachines");
+var EGULD = artifacts.require("EGULD");
 
 module.exports = function(deployer) {
-  deployer.deploy(XCoinMachines);
+  deployer.deploy(EGULD);
 };
