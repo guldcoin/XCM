@@ -1,0 +1,33 @@
+{
+  "name": "eguld",
+  "version": "1.0.0",
+  "description": "Ethereum port of GULD token",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lite-server": "^2.3.0",
+    "solc": "^0.4.20",
+    "truffle-hdwallet-provider": "0.0.5",
+    "zeppelin-solidity": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guldcoin/eguld.git"
+  },
+  "keywords": [
+    "ethereum",
+    "erc20",
+    "guld"
+  ],
+  "author": "isysd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guldcoin/eguld/issues"
+  },
+  "homepage": "https://github.com/guldcoin/eguld#readme"
+}
